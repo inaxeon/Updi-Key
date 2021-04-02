@@ -1,11 +1,4 @@
-122906556613988
-78208-103HLF
-78208-103HLF
-
-
-0
-3
-3
+124535168227672
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -30078,6 +30071,13 @@ Resistor_SMDuniversal_0805to2512_HandSoldering
 0
 0
 0
+SL_3_RA
+SL_3_RA
+
+
+0
+3
+3
 SMD_Packages
 1Pin
 
@@ -39003,6 +39003,13 @@ RV_Disc_D21.5_W11.4_P10
 0
 0
 0
+WP934AD
+WP934AD
+
+
+0
+2
+2
 Wire_Connections_Bridges
 WireConnection_0.80mmDrill
 

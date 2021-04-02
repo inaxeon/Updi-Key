@@ -29,9 +29,9 @@ F 6 "ATTINY202-SSNR" H 2250 2600 50  0001 C CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Wire Line
 	8050 1800 8000 1800
-Text Label 2850 2400 0    50   ~ 0
+Text Label 3375 2400 2    50   ~ 0
 HV-EN
-Text Label 2850 2700 0    50   ~ 0
+Text Label 3375 2700 2    50   ~ 0
 PWR-SW-EN
 $Comp
 L Device:C_Small C1
@@ -58,10 +58,10 @@ Wire Wire Line
 	2250 3250 2250 3350
 Connection ~ 2250 3250
 $Comp
-L Device:R_Small_US R11
+L Device:R_Small_US R9
 U 1 1 5F5C9679
 P 8700 2800
-F 0 "R11" V 8800 2650 50  0000 L CNN
+F 0 "R9" V 8800 2650 50  0000 L CNN
 F 1 "180Ω" V 8600 2700 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 8700 2800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 8700 2800 50  0001 C CNN
@@ -95,10 +95,10 @@ $EndComp
 Text Label 6900 1800 2    50   ~ 0
 HV-EN
 $Comp
-L Device:C_Small C7
+L Device:C_Small C8
 U 1 1 5F60F732
 P 6250 1950
-F 0 "C7" H 6350 2000 50  0000 L CNN
+F 0 "C8" H 6350 2000 50  0000 L CNN
 F 1 "0.1µF" H 6275 1875 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6250 1950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp" H 6250 1950 50  0001 C CNN
@@ -110,10 +110,10 @@ F 7 "1276-1000-1-ND" H 6250 1950 50  0001 C CNN "Digi-Key Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R10
+L Device:R_Small_US R7
 U 1 1 5F5C9609
 P 6950 2450
-F 0 "R10" H 7025 2500 50  0000 L CNN
+F 0 "R7" H 7025 2500 50  0000 L CNN
 F 1 "10K" H 7000 2400 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 6950 2450 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 6950 2450 50  0001 C CNN
@@ -125,10 +125,10 @@ F 7 "2019-RK73B1JTTD103JCT-ND" H 6950 2450 50  0001 C CNN "Digi-Key Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L power:GND #PWR0101
 U 1 1 5F6BC1F8
 P 2250 3350
-F 0 "#PWR01" H 2250 3100 50  0001 C CNN
+F 0 "#PWR0101" H 2250 3100 50  0001 C CNN
 F 1 "GND" H 2255 3177 50  0001 C CNN
 F 2 "" H 2250 3350 50  0001 C CNN
 F 3 "" H 2250 3350 50  0001 C CNN
@@ -136,10 +136,10 @@ F 3 "" H 2250 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG0101
 U 1 1 5F5B14F9
 P 5400 6850
-F 0 "#FLG02" H 5400 6925 50  0001 C CNN
+F 0 "#FLG0101" H 5400 6925 50  0001 C CNN
 F 1 "PWR_FLAG" V 5400 7150 50  0000 C CNN
 F 2 "" H 5400 6850 50  0001 C CNN
 F 3 "~" H 5400 6850 50  0001 C CNN
@@ -155,10 +155,10 @@ Wire Wire Line
 Text GLabel 5400 7000 0    50   Input ~ 0
 VF
 $Comp
-L power:PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG0102
 U 1 1 5F6566E4
 P 5400 7000
-F 0 "#FLG03" H 5400 7075 50  0001 C CNN
+F 0 "#FLG0102" H 5400 7075 50  0001 C CNN
 F 1 "PWR_FLAG" V 5400 7300 50  0000 C CNN
 F 2 "" H 5400 7000 50  0001 C CNN
 F 3 "~" H 5400 7000 50  0001 C CNN
@@ -166,10 +166,10 @@ F 3 "~" H 5400 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR0102
 U 1 1 5F663192
 P 5400 7150
-F 0 "#PWR05" H 5400 6900 50  0001 C CNN
+F 0 "#PWR0102" H 5400 6900 50  0001 C CNN
 F 1 "GND" H 5405 6977 50  0001 C CNN
 F 2 "" H 5400 7150 50  0001 C CNN
 F 3 "" H 5400 7150 50  0001 C CNN
@@ -177,10 +177,10 @@ F 3 "" H 5400 7150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG0103
 U 1 1 5F665A2E
 P 5400 7150
-F 0 "#FLG04" H 5400 7225 50  0001 C CNN
+F 0 "#FLG0103" H 5400 7225 50  0001 C CNN
 F 1 "PWR_FLAG" V 5400 7450 50  0000 C CNN
 F 2 "" H 5400 7150 50  0001 C CNN
 F 3 "~" H 5400 7150 50  0001 C CNN
@@ -193,7 +193,7 @@ U 1 1 5F5C28CD
 P 5450 7500
 F 0 "FID2" H 5535 7546 50  0000 L CNN
 F 1 "Fiducial" H 5535 7455 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7500 50  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7500 50  0001 C CNN
 F 3 "" H 5450 7500 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7500 50  0001 C CNN "Description"
 	1    5450 7500
@@ -205,7 +205,7 @@ U 1 1 5F5BB1E6
 P 5450 7350
 F 0 "FID1" H 5535 7396 50  0000 L CNN
 F 1 "Fiducial" H 5535 7305 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7350 50  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7350 50  0001 C CNN
 F 3 "" H 5450 7350 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7350 50  0001 C CNN "Description"
 	1    5450 7350
@@ -220,10 +220,10 @@ VTG
 Wire Wire Line
 	8775 5150 8825 5150
 $Comp
-L power:GND #PWR011
+L power:GND #PWR0103
 U 1 1 5F65197B
 P 8825 5750
-F 0 "#PWR011" H 8825 5500 50  0001 C CNN
+F 0 "#PWR0103" H 8825 5500 50  0001 C CNN
 F 1 "GND" H 8830 5577 50  0001 C CNN
 F 2 "" H 8825 5750 50  0001 C CNN
 F 3 "" H 8825 5750 50  0001 C CNN
@@ -231,12 +231,12 @@ F 3 "" H 8825 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT VTG1
+L Device:LED_ALT D2
 U 1 1 5F5E186B
 P 6100 5650
-F 0 "VTG1" V 6150 5550 50  0000 C CNN
+F 0 "D2" V 6150 5550 50  0000 C CNN
 F 1 "GREEN" V 5925 5425 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 6100 5650 50  0001 C CNN
+F 2 "WP934AD:WP934AD" H 6100 5650 50  0001 C CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493948/LG%20Q396.pdf" H 6100 5650 50  0001 C CNN
 F 4 "LED GREEN DIFFUSED 0603 SMD" H 6100 5650 50  0001 C CNN "Description"
 F 5 "LG Q396-PS-35" H 6100 5650 50  0001 C CNN "Manufacturer_Part_Number"
@@ -250,7 +250,7 @@ Wire Wire Line
 	8775 4950 8975 4950
 Text GLabel 3950 4950 1    50   Input ~ 0
 VTG
-Text Label 2850 2500 0    50   ~ 0
+Text Label 3375 2500 2    50   ~ 0
 UPDI-SENSE
 $Comp
 L Device:C_Small C5
@@ -277,10 +277,10 @@ Wire Wire Line
 	1500 1950 1600 1950
 Connection ~ 1600 1950
 $Comp
-L Device:R_Small_US R4
+L Device:R_Small_US R1
 U 1 1 5F5C9613
 P 3550 5500
-F 0 "R4" H 3625 5550 50  0000 L CNN
+F 0 "R1" H 3625 5550 50  0000 L CNN
 F 1 "10K" H 3600 5450 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3550 5500 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 3550 5500 50  0001 C CNN
@@ -307,10 +307,10 @@ F 7 "587-3258-1-ND" H 3950 5500 50  0001 C CNN "Digi-Key Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR0104
 U 1 1 5F66228E
 P 3950 5700
-F 0 "#PWR04" H 3950 5450 50  0001 C CNN
+F 0 "#PWR0104" H 3950 5450 50  0001 C CNN
 F 1 "GND" H 3955 5527 50  0001 C CNN
 F 2 "" H 3950 5700 50  0001 C CNN
 F 3 "" H 3950 5700 50  0001 C CNN
@@ -332,10 +332,10 @@ Wire Wire Line
 	3950 4950 3950 5100
 Connection ~ 3950 5100
 $Comp
-L power:GND #PWR06
+L power:GND #PWR0105
 U 1 1 5F6A313A
 P 5650 5900
-F 0 "#PWR06" H 5650 5650 50  0001 C CNN
+F 0 "#PWR0105" H 5650 5650 50  0001 C CNN
 F 1 "GND" H 5655 5727 50  0001 C CNN
 F 2 "" H 5650 5900 50  0001 C CNN
 F 3 "" H 5650 5900 50  0001 C CNN
@@ -343,10 +343,10 @@ F 3 "" H 5650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R9
+L Device:R_Small_US R6
 U 1 1 5F719032
 P 6100 5400
-F 0 "R9" H 6150 5500 50  0000 L CNN
+F 0 "R6" H 6150 5500 50  0000 L CNN
 F 1 "1K" H 6100 5300 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 6100 5400 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 6100 5400 50  0001 C CNN
@@ -372,10 +372,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 5200 6100 5300
 $Comp
-L Device:R_Small_US R8
+L Device:R_Small_US R5
 U 1 1 5F836114
 P 5900 5650
-F 0 "R8" H 5950 5700 50  0000 L CNN
+F 0 "R5" H 5950 5700 50  0000 L CNN
 F 1 "1K" H 5900 5550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 5900 5650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 5900 5650 50  0001 C CNN
@@ -402,10 +402,10 @@ Wire Wire Line
 	6200 5200 6100 5200
 Connection ~ 6100 5200
 $Comp
-L SamacSys_Parts:ISL43210IHZ-T SW2
+L SamacSys_Parts:ISL43210IHZ-T U4
 U 1 1 5F885250
 P 7000 1800
-F 0 "SW2" H 7175 1975 50  0000 C CNN
+F 0 "U4" H 7175 1975 50  0000 C CNN
 F 1 "ISL43210IHZ-T" H 7600 1975 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 7850 1900 50  0001 L CNN
 F 3 "https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf" H 7850 1800 50  0001 L CNN
@@ -422,12 +422,12 @@ F 12 "ISL43210IHZCT-ND" H 7000 1800 50  0001 C CNN "Digi-Key Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J5
+L Connector_Generic:Conn_01x03 J2
 U 1 1 5F5C952B
 P 9300 2000
-F 0 "J5" H 9450 2000 50  0000 C CNN
+F 0 "J2" H 9450 2000 50  0000 C CNN
 F 1 "HVUPDI-OUT" H 9450 2200 50  0000 C CNN
-F 2 "78208-103HLF:78208-103HLF" H 9300 2000 50  0001 C CNN
+F 2 "SL_3_RA:SL_3_RA" H 9300 2000 50  0001 C CNN
 F 3 "~" H 9300 2000 50  0001 C CNN
 F 4 "Pin strip male header, 2.54mm, 3-position" H 9300 2000 50  0001 C CNN "Description"
 	1    9300 2000
@@ -442,10 +442,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 2100 9000 2100
 $Comp
-L power:GND #PWR010
+L power:GND #PWR0106
 U 1 1 5F6E4935
 P 9050 2150
-F 0 "#PWR010" H 9050 1900 50  0001 C CNN
+F 0 "#PWR0106" H 9050 1900 50  0001 C CNN
 F 1 "GND" H 9055 1977 50  0001 C CNN
 F 2 "" H 9050 2150 50  0001 C CNN
 F 3 "" H 9050 2150 50  0001 C CNN
@@ -455,10 +455,10 @@ $EndComp
 Wire Wire Line
 	9050 2000 9050 2150
 $Comp
-L Device:R_Small_US R12
+L Device:R_Small_US R8
 U 1 1 5F8C2D98
 P 8150 2250
-F 0 "R12" H 8200 2350 50  0000 L CNN
+F 0 "R8" H 8200 2350 50  0000 L CNN
 F 1 "180Ω" H 8200 2200 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 8150 2250 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 8150 2250 50  0001 C CNN
@@ -471,14 +471,12 @@ F 8 "RK73B1JTTD181J" H 8150 2250 50  0001 C CNN "Mouser Part Number"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 1500 6600 1900
-Wire Wire Line
 	8050 1500 8050 1800
 $Comp
-L Device:R_Small_US R5
+L Device:R_Small_US R3
 U 1 1 5F811016
 P 5600 1650
-F 0 "R5" H 5650 1700 50  0000 L CNN
+F 0 "R3" H 5650 1700 50  0000 L CNN
 F 1 "102K 1%" H 5625 1550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 5600 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 1650 50  0001 C CNN
@@ -490,10 +488,10 @@ F 7 "311-102KHRCT-ND" H 5600 1650 50  0001 C CNN "Digi-Key Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R6
+L Device:R_Small_US R4
 U 1 1 5F815A93
 P 5600 1950
-F 0 "R6" H 5650 2000 50  0000 L CNN
+F 0 "R4" H 5650 2000 50  0000 L CNN
 F 1 "11K 1%" H 5625 1850 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 5600 1950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 1950 50  0001 C CNN
@@ -505,10 +503,10 @@ F 7 "311-11.0KHRCT-ND" H 5600 1950 50  0001 C CNN "Digi-Key Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_Small D2
+L Device:D_Schottky_Small D1
 U 1 1 5F81B129
 P 5400 1500
-F 0 "D2" H 5400 1387 50  0000 C CNN
+F 0 "D1" H 5400 1387 50  0000 C CNN
 F 1 "PMEG4005CEJX" H 5400 1386 50  0001 C CNN
 F 2 "Diodes_SMD:D_SOD-323F" V 5400 1500 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4005CEJ.pdf" V 5400 1500 50  0001 C CNN
@@ -519,10 +517,10 @@ F 6 "PMEG4005CEJX" H 5400 1500 50  0001 C CNN "Manufacturer_Part_Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C4
+L Device:C_Small C6
 U 1 1 5F81C3F7
 P 5850 1650
-F 0 "C4" H 5700 1725 50  0000 L CNN
+F 0 "C6" H 5700 1725 50  0000 L CNN
 F 1 "68pF" H 5625 1550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5850 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 5850 1650 50  0001 C CNN
@@ -534,10 +532,10 @@ F 7 "311-3842-1-ND" H 5850 1650 50  0001 C CNN "Digi-Key Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Device:C_Small C7
 U 1 1 5F820D6B
 P 6000 1950
-F 0 "C6" H 5850 2025 50  0000 L CNN
+F 0 "C7" H 5850 2025 50  0000 L CNN
 F 1 "4.7µF" H 5775 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6000 1950 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A475KO8NNNC_Spec.pdf" H 6000 1950 50  0001 C CNN
@@ -617,21 +615,21 @@ Wire Wire Line
 	4100 2300 5850 2300
 Connection ~ 5850 1800
 $Comp
-L power:GND #PWR07
+L power:GND #PWR0107
 U 1 1 5FA38992
 P 6250 2650
-F 0 "#PWR07" H 6250 2400 50  0001 C CNN
+F 0 "#PWR0107" H 6250 2400 50  0001 C CNN
 F 1 "GND" H 6255 2477 50  0001 C CNN
 F 2 "" H 6250 2650 50  0001 C CNN
 F 3 "" H 6250 2650 50  0001 C CNN
 	1    6250 2650
 	1    0    0    -1  
 $EndComp
-Text Label 2850 2800 0    50   ~ 0
+Text Label 3375 2800 2    50   ~ 0
 UPDI-EN
-Text Label 2850 2300 0    50   ~ 0
+Text Label 3375 2300 2    50   ~ 0
 PROG
-Text Label 2850 2600 0    50   ~ 0
+Text Label 3375 2600 2    50   ~ 0
 UPDI-KEY
 Wire Wire Line
 	3950 1500 3950 1450
@@ -674,14 +672,7 @@ Wire Wire Line
 	5600 2100 5600 2600
 Wire Wire Line
 	6600 2000 6600 2600
-Wire Wire Line
-	6900 1800 6950 1800
 Connection ~ 6950 1800
-Connection ~ 6600 1500
-Wire Wire Line
-	6600 1500 8050 1500
-Wire Wire Line
-	6600 1900 7000 1900
 Wire Wire Line
 	6000 1500 6250 1500
 Connection ~ 6600 2600
@@ -694,8 +685,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 1850 6250 1500
 Connection ~ 6250 1500
-Wire Wire Line
-	6250 1500 6600 1500
 Wire Wire Line
 	6250 2050 6250 2600
 Connection ~ 6250 2600
@@ -712,10 +701,10 @@ Wire Wire Line
 	3950 2600 3950 2350
 Connection ~ 5600 2600
 $Comp
-L SamacSys_Parts:SN74LVC1G3157DBVR SW1
+L SamacSys_Parts:SN74LVC1G3157DBVR U5
 U 1 1 5FBF6F95
 P 7000 3150
-F 0 "SW1" H 7500 3415 50  0000 C CNN
+F 0 "U5" H 7500 3415 50  0000 C CNN
 F 1 "SN74LVC1G3157DBVR" H 7500 3324 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 7850 3250 50  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157" H 7850 3150 50  0001 L CNN
@@ -746,10 +735,10 @@ Wire Wire Line
 Wire Wire Line
 	8050 3150 8000 3150
 $Comp
-L power:GND #PWR09
+L power:GND #PWR0108
 U 1 1 5FC79D07
 P 6950 3400
-F 0 "#PWR09" H 6950 3150 50  0001 C CNN
+F 0 "#PWR0108" H 6950 3150 50  0001 C CNN
 F 1 "GND" H 6955 3227 50  0001 C CNN
 F 2 "" H 6950 3400 50  0001 C CNN
 F 3 "" H 6950 3400 50  0001 C CNN
@@ -765,10 +754,10 @@ UPDI-KEY
 Text Label 7050 1500 0    50   ~ 0
 12V
 $Comp
-L Device:R_Small_US R3
+L Device:R_Small_US R2
 U 1 1 5FD033D9
 P 4700 3750
-F 0 "R3" V 4600 3700 50  0000 L CNN
+F 0 "R2" V 4600 3700 50  0000 L CNN
 F 1 "10K" V 4800 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 4700 3750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 4700 3750 50  0001 C CNN
@@ -782,10 +771,10 @@ $EndComp
 Wire Wire Line
 	2850 2500 3750 2500
 $Comp
-L power:GND #PWR03
+L power:GND #PWR0109
 U 1 1 5FD39EEF
 P 3750 4500
-F 0 "#PWR03" H 3750 4250 50  0001 C CNN
+F 0 "#PWR0109" H 3750 4250 50  0001 C CNN
 F 1 "GND" H 3755 4327 50  0001 C CNN
 F 2 "" H 3750 4500 50  0001 C CNN
 F 3 "" H 3750 4500 50  0001 C CNN
@@ -798,9 +787,7 @@ Wire Wire Line
 	6600 3350 7000 3350
 Text Label 6500 3750 2    50   ~ 0
 UPDI-HOST
-Wire Wire Line
-	8075 4950 8275 4950
-Text Label 8075 4950 2    50   ~ 0
+Text Label 8225 4950 2    50   ~ 0
 UPDI-HOST
 Text Label 3300 5300 2    50   ~ 0
 PWR-SW-EN
@@ -827,10 +814,10 @@ F 12 "576-3891-1-ND" H 4350 5100 50  0001 C CNN "Digi-Key Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
+L Device:C_Small C4
 U 1 1 5F892172
 P 4150 5500
-F 0 "C8" H 4175 5575 50  0000 L CNN
+F 0 "C4" H 4175 5575 50  0000 L CNN
 F 1 "0.1µF" H 3900 5400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4150 5500 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp" H 4150 5500 50  0001 C CNN
@@ -887,7 +874,7 @@ U 1 1 5F8C7336
 P 5450 7650
 F 0 "FID3" H 5535 7696 50  0000 L CNN
 F 1 "Fiducial" H 5535 7605 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7650 50  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7650 50  0001 C CNN
 F 3 "" H 5450 7650 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7650 50  0001 C CNN "Description"
 	1    5450 7650
@@ -899,10 +886,10 @@ Wire Wire Line
 	6950 1800 6950 2350
 Connection ~ 8050 2800
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR0110
 U 1 1 5F88BE39
 P 9300 3000
-F 0 "#PWR0101" H 9300 2750 50  0001 C CNN
+F 0 "#PWR0110" H 9300 2750 50  0001 C CNN
 F 1 "GND" H 9305 2827 50  0001 C CNN
 F 2 "" H 9300 3000 50  0001 C CNN
 F 3 "" H 9300 3000 50  0001 C CNN
@@ -914,12 +901,12 @@ Wire Wire Line
 Wire Wire Line
 	9300 2800 9200 2800
 $Comp
-L Device:LED_ALT HV1
+L Device:LED_ALT D3
 U 1 1 5F5C966F
 P 9050 2800
-F 0 "HV1" H 9050 2700 50  0000 C CNN
+F 0 "D3" H 9050 2700 50  0000 C CNN
 F 1 "ORANGE" H 9043 2925 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 9050 2800 50  0001 C CNN
+F 2 "WP934AD:WP934AD" H 9050 2800 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTD1608SECK-J4-PF.pdf" H 9050 2800 50  0001 C CNN
 F 4 "LED ORANGE CLEAR 0603 (1608 Metric)" H 9050 2800 50  0001 C CNN "Description"
 F 5 "APTD1608SECK/J4-PF" H 9050 2800 50  0001 C CNN "Manufacturer_Part_Number"
@@ -937,13 +924,13 @@ U 1 1 5F88A9EF
 P 5450 7800
 F 0 "FID4" H 5535 7846 50  0000 L CNN
 F 1 "Fiducial" H 5535 7755 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7800 50  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7800 50  0001 C CNN
 F 3 "" H 5450 7800 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7800 50  0001 C CNN "Description"
 	1    5450 7800
 	1    0    0    -1  
 $EndComp
-Text Label 8275 5050 2    50   ~ 0
+Text Label 8000 5050 2    50   ~ 0
 PROG
 Wire Wire Line
 	6600 3350 6600 3750
@@ -959,8 +946,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 2600 3550 2600
 Wire Wire Line
-	3300 5300 3550 5300
-Wire Wire Line
 	3950 5650 3550 5650
 Wire Wire Line
 	3550 5650 3550 5600
@@ -969,31 +954,59 @@ Wire Wire Line
 Connection ~ 3550 5300
 Wire Wire Line
 	3550 5300 4350 5300
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
-U 1 1 5F60EDA6
-P 8475 5050
-F 0 "J3" H 8525 5275 50  0000 C CNN
-F 1 "UPDI_IN6" H 8525 4825 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05_Pitch1.00mm" H 8475 5050 50  0001 C CNN
-F 3 "~" H 8475 5050 50  0001 C CNN
-F 4 "Pin header, male, 2.54mm, 6-position" H 8475 5050 50  0001 C CNN "Description"
-	1    8475 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8825 5150 8825 5750
 $Comp
-L Switch:SW_SPST SW3
+L Switch:SW_SPST SW1
 U 1 1 606BB77A
 P 3750 4100
-F 0 "SW3" V 3796 4012 50  0000 R CNN
+F 0 "SW1" V 3796 4012 50  0000 R CNN
 F 1 "RE-UPDIFY" V 3705 4012 50  0000 R CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVPBF" H 3750 4100 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 3750 4100 50  0001 C CNN
 F 3 "~" H 3750 4100 50  0001 C CNN
 	1    3750 4100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3750 4500 3750 4300
+Wire Wire Line
+	8275 5050 7775 5050
+Wire Wire Line
+	7775 4950 8275 4950
+Wire Wire Line
+	2775 5300 3550 5300
+Wire Wire Line
+	6650 1800 6950 1800
+Wire Wire Line
+	6250 1500 6525 1500
+Wire Wire Line
+	6525 1900 6525 1500
+Wire Wire Line
+	6525 1900 7000 1900
+Connection ~ 6525 1500
+Wire Wire Line
+	6525 1500 8050 1500
+Wire Wire Line
+	2850 2400 3425 2400
+Wire Wire Line
+	2850 2300 3425 2300
+Wire Wire Line
+	2850 2700 3425 2700
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 606CF521
+P 8475 4300
+F 0 "J1" H 8525 4717 50  0000 C CNN
+F 1 "ATMEL ICE" H 8525 4626 50  0000 C CNN
+F 2 "SAMTEC_SHF-105-01-L-D-RA:SAMTEC_SHF-105-01-L-D-RA" H 8475 4300 50  0001 C CNN
+F 3 "~" H 8475 4300 50  0001 C CNN
+	1    8475 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 9875 4725 2    50   ~ 0
+VERIFY ATMEL-ICE USES SAME PIN ODERING AS SAMTEC SPECIFICATION
+Text Notes 9850 2650 1    50   ~ 0
+CHECH MECH BEFORE FABRICATION
+Text Notes 3650 4300 2    50   ~ 0
+CHECK FOOTPRINT AGAINST\nCOMMONLY AVAILABLE PRODUCT
 $EndSCHEMATC
