@@ -19,7 +19,7 @@ U 1 1 5F5C9531
 P 2250 2600
 F 0 "U1" H 1850 3150 50  0000 R CNN
 F 1 "ATtiny202-SS" H 2850 3175 50  0000 R CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2250 2600 50  0001 C CIN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2250 2600 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf" H 2250 2600 50  0001 C CNN
 F 4 "IC MCU 8BIT 2KB FLASH 8SOIC" H 2250 2600 50  0001 C CNN "Description"
 F 5 "ATTINY202-SSNRCT-ND" H 2250 2600 50  0001 C CNN "Digi-Key Part Number"
@@ -39,7 +39,7 @@ U 1 1 5F5C962E
 P 1600 2650
 F 0 "C1" H 1625 2725 50  0000 L CNN
 F 1 "0.1µF" H 1625 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1600 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1600 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp" H 1600 2650 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V X7R 0603" H 1600 2650 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 1600 2650 50  0001 C CNN "Manufacturer_Name"
@@ -63,7 +63,7 @@ U 1 1 5F5C9679
 P 8700 2800
 F 0 "R9" V 8800 2650 50  0000 L CNN
 F 1 "180Ω" V 8600 2700 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 8700 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 2800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 8700 2800 50  0001 C CNN
 F 4 "RES 180 OHM 5% 1/8W 0603" H 8700 2800 50  0001 C CNN "Description"
 F 5 "Yageo" H 8700 2800 50  0001 C CNN "Manufacturer_Name"
@@ -84,7 +84,7 @@ U 1 1 5F5E4CB0
 P 1400 1950
 F 0 "F1" V 1325 1925 50  0000 C CNN
 F 1 "50mA" V 1500 1950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 1450 1750 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1450 1750 50  0001 L CNN
 F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcm-series.pdf" H 1400 1950 50  0001 C CNN
 F 4 "PTC RESET FUSE 15V 50MA 0603" H 1400 1950 50  0001 C CNN "Description"
 F 5 "507-1816-1-ND" H 1400 1950 50  0001 C CNN "Digi-Key Part Number"
@@ -100,7 +100,7 @@ U 1 1 5F60F732
 P 6250 1950
 F 0 "C8" H 6350 2000 50  0000 L CNN
 F 1 "0.1µF" H 6275 1875 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6250 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 1950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp" H 6250 1950 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V X7R 0603" H 6250 1950 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 6250 1950 50  0001 C CNN "Manufacturer_Name"
@@ -115,7 +115,7 @@ U 1 1 5F5C9609
 P 6950 2450
 F 0 "R7" H 7025 2500 50  0000 L CNN
 F 1 "10K" H 7000 2400 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 6950 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6950 2450 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 6950 2450 50  0001 C CNN
 F 4 "RES 10K OHM 5% 1/10W 0603" H 6950 2450 50  0001 C CNN "Description"
 F 5 "Yageo" H 6950 2450 50  0001 C CNN "Manufacturer_Name"
@@ -193,7 +193,7 @@ U 1 1 5F5C28CD
 P 5450 7500
 F 0 "FID2" H 5535 7546 50  0000 L CNN
 F 1 "Fiducial" H 5535 7455 50  0001 L CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7500 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7500 50  0001 C CNN
 F 3 "" H 5450 7500 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7500 50  0001 C CNN "Description"
 	1    5450 7500
@@ -205,7 +205,7 @@ U 1 1 5F5BB1E6
 P 5450 7350
 F 0 "FID1" H 5535 7396 50  0000 L CNN
 F 1 "Fiducial" H 5535 7305 50  0001 L CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7350 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7350 50  0001 C CNN
 F 3 "" H 5450 7350 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7350 50  0001 C CNN "Description"
 	1    5450 7350
@@ -215,21 +215,8 @@ Wire Wire Line
 	1600 1950 1600 2550
 Wire Wire Line
 	1600 2750 1600 3250
-Text GLabel 8975 4950 2    50   Input ~ 0
+Text GLabel 8850 5500 2    50   Input ~ 0
 VTG
-Wire Wire Line
-	8775 5150 8825 5150
-$Comp
-L power:GND #PWR0103
-U 1 1 5F65197B
-P 8825 5750
-F 0 "#PWR0103" H 8825 5500 50  0001 C CNN
-F 1 "GND" H 8830 5577 50  0001 C CNN
-F 2 "" H 8825 5750 50  0001 C CNN
-F 3 "" H 8825 5750 50  0001 C CNN
-	1    8825 5750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED_ALT D2
 U 1 1 5F5E186B
@@ -246,8 +233,6 @@ F 6 "475-3754-1-ND" H 6100 5650 50  0001 C CNN "Digi-Key Part Number"
 $EndComp
 Text GLabel 6200 5200 2    50   Output ~ 0
 VTG-PC
-Wire Wire Line
-	8775 4950 8975 4950
 Text GLabel 3950 4950 1    50   Input ~ 0
 VTG
 Text Label 3375 2500 2    50   ~ 0
@@ -258,7 +243,7 @@ U 1 1 5F714F5E
 P 5650 5650
 F 0 "C5" H 5675 5725 50  0000 L CNN
 F 1 "10µF" H 5675 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5650 5650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 5650 50  0001 C CNN
 F 3 "http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 5650 5650 50  0001 C CNN
 F 4 "CAP CER 10UF 10V X5R 0603" H 5650 5650 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 5650 5650 50  0001 C CNN "Manufacturer_Name"
@@ -282,7 +267,7 @@ U 1 1 5F5C9613
 P 3550 5500
 F 0 "R1" H 3625 5550 50  0000 L CNN
 F 1 "10K" H 3600 5450 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3550 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3550 5500 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 3550 5500 50  0001 C CNN
 F 4 "RES 10K OHM 5% 1/10W 0603" H 3550 5500 50  0001 C CNN "Description"
 F 5 "Yageo" H 3550 5500 50  0001 C CNN "Manufacturer_Name"
@@ -297,7 +282,7 @@ U 1 1 5F662288
 P 3950 5500
 F 0 "C3" H 3800 5575 50  0000 L CNN
 F 1 "10µF" H 3725 5400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3950 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 5500 50  0001 C CNN
 F 3 "http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 3950 5500 50  0001 C CNN
 F 4 "CAP CER 10UF 10V X5R 0603" H 3950 5500 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 3950 5500 50  0001 C CNN "Manufacturer_Name"
@@ -348,7 +333,7 @@ U 1 1 5F719032
 P 6100 5400
 F 0 "R6" H 6150 5500 50  0000 L CNN
 F 1 "1K" H 6100 5300 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 6100 5400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 5400 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 6100 5400 50  0001 C CNN
 F 4 "RES 1K OHM 5% 1/8W 0603" H 6100 5400 50  0001 C CNN "Description"
 F 5 "Yageo" H 6100 5400 50  0001 C CNN "Manufacturer_Name"
@@ -377,7 +362,7 @@ U 1 1 5F836114
 P 5900 5650
 F 0 "R5" H 5950 5700 50  0000 L CNN
 F 1 "1K" H 5900 5550 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 5900 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 5650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 5900 5650 50  0001 C CNN
 F 4 "RES 1K OHM 5% 1/8W 0603" H 5900 5650 50  0001 C CNN "Description"
 F 5 "Yageo" H 5900 5650 50  0001 C CNN "Manufacturer_Name"
@@ -407,7 +392,7 @@ U 1 1 5F885250
 P 7000 1800
 F 0 "U4" H 7175 1975 50  0000 C CNN
 F 1 "ISL43210IHZ-T" H 7600 1975 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 7850 1900 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7850 1900 50  0001 L CNN
 F 3 "https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf" H 7850 1800 50  0001 L CNN
 F 4 "IC SWITCH SPDT SOT23-6, Marking GJQG" H 7850 1700 50  0001 L CNN "Description"
 F 5 "1.45" H 7850 1600 50  0001 L CNN "Height"
@@ -460,7 +445,7 @@ U 1 1 5F8C2D98
 P 8150 2250
 F 0 "R8" H 8200 2350 50  0000 L CNN
 F 1 "180Ω" H 8200 2200 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 8150 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8150 2250 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 8150 2250 50  0001 C CNN
 F 4 "RES 180 OHM 5% 1/8W 0603" H 8150 2250 50  0001 C CNN "Description"
 F 5 "Yageo" H 8150 2250 50  0001 C CNN "Manufacturer_Name"
@@ -478,7 +463,7 @@ U 1 1 5F811016
 P 5600 1650
 F 0 "R3" H 5650 1700 50  0000 L CNN
 F 1 "102K 1%" H 5625 1550 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 5600 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 1650 50  0001 C CNN
 F 4 "RES SMD 102K OHM 1% 1/10W 0603" H 5600 1650 50  0001 C CNN "Description"
 F 5 "Yageo" H 5600 1650 50  0001 C CNN "Manufacturer_Name"
@@ -493,7 +478,7 @@ U 1 1 5F815A93
 P 5600 1950
 F 0 "R4" H 5650 2000 50  0000 L CNN
 F 1 "11K 1%" H 5625 1850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 5600 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 1950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 1950 50  0001 C CNN
 F 4 "RES SMD 11K OHM 1% 1/10W 0603" H 5600 1950 50  0001 C CNN "Description"
 F 5 "Yageo" H 5600 1950 50  0001 C CNN "Manufacturer_Name"
@@ -508,7 +493,7 @@ U 1 1 5F81B129
 P 5400 1500
 F 0 "D1" H 5400 1387 50  0000 C CNN
 F 1 "PMEG4005CEJX" H 5400 1386 50  0001 C CNN
-F 2 "Diodes_SMD:D_SOD-323F" V 5400 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323F" V 5400 1500 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4005CEJ.pdf" V 5400 1500 50  0001 C CNN
 F 4 "DIODE SCHOTTKY 40V 500MA SC90" H 5400 1500 50  0001 C CNN "Description"
 F 5 "1727-8169-1-ND" H 5400 1500 50  0001 C CNN "Digi-Key Part Number"
@@ -522,7 +507,7 @@ U 1 1 5F81C3F7
 P 5850 1650
 F 0 "C6" H 5700 1725 50  0000 L CNN
 F 1 "68pF" H 5625 1550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5850 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5850 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 5850 1650 50  0001 C CNN
 F 4 "CAP CER 0.68PF 50V NPO 0603" H 5850 1650 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 5850 1650 50  0001 C CNN "Manufacturer_Name"
@@ -537,7 +522,7 @@ U 1 1 5F820D6B
 P 6000 1950
 F 0 "C7" H 5850 2025 50  0000 L CNN
 F 1 "4.7µF" H 5775 1850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6000 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 1950 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A475KO8NNNC_Spec.pdf" H 6000 1950 50  0001 C CNN
 F 4 "CAP CER 4.7UF 16V X5R 0603" H 6000 1950 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 6000 1950 50  0001 C CNN "Manufacturer_Name"
@@ -552,7 +537,7 @@ U 1 1 5F8252A2
 P 3950 2250
 F 0 "C2" H 3800 2325 50  0000 L CNN
 F 1 "10µF" H 3725 2150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3950 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 2250 50  0001 C CNN
 F 3 "http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 3950 2250 50  0001 C CNN
 F 4 "CAP CER 10UF 10V X5R 0603" H 3950 2250 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 3950 2250 50  0001 C CNN "Manufacturer_Name"
@@ -639,7 +624,7 @@ U 1 1 5F7FBF2D
 P 4150 1900
 F 0 "U2" H 4300 2100 50  0000 C CNN
 F 1 "NCP1406SNT1G" H 4700 2100 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5000 2000 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5000 2000 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NCP1406-D.PDF" H 5000 1900 50  0001 L CNN
 F 4 "IC REG BUCK BST ADJ 25MA 5TSOP" H 5000 1800 50  0001 L CNN "Description"
 F 5 "1.1" H 5000 1700 50  0001 L CNN "Height"
@@ -706,7 +691,7 @@ U 1 1 5FBF6F95
 P 7000 3150
 F 0 "U5" H 7500 3415 50  0000 C CNN
 F 1 "SN74LVC1G3157DBVR" H 7500 3324 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 7850 3250 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7850 3250 50  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157" H 7850 3150 50  0001 L CNN
 F 4 "IC SWITCH SPDT SOT23-6" H 7850 3050 50  0001 L CNN "Description"
 F 5 "1.45" H 7850 2950 50  0001 L CNN "Height"
@@ -759,7 +744,7 @@ U 1 1 5FD033D9
 P 4700 3750
 F 0 "R2" V 4600 3700 50  0000 L CNN
 F 1 "10K" V 4800 3650 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4700 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4700 3750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73B.pdf" H 4700 3750 50  0001 C CNN
 F 4 "RES 10K OHM 5% 1/10W 0603" H 4700 3750 50  0001 C CNN "Description"
 F 5 "Yageo" H 4700 3750 50  0001 C CNN "Manufacturer_Name"
@@ -787,7 +772,7 @@ Wire Wire Line
 	6600 3350 7000 3350
 Text Label 6500 3750 2    50   ~ 0
 UPDI-HOST
-Text Label 8225 4950 2    50   ~ 0
+Text Label 7900 5500 2    50   ~ 0
 UPDI-HOST
 Text Label 3300 5300 2    50   ~ 0
 PWR-SW-EN
@@ -799,7 +784,7 @@ U 1 1 5F8424F9
 P 4350 5100
 F 0 "U3" H 4950 5365 50  0000 C CNN
 F 1 "MIC2091-1YM5-TR" H 4950 5274 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5400 5200 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5400 5200 50  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579481" H 5400 5100 50  0001 L CNN
 F 4 "MICROCHIP - MIC2091-1YM5-TR - POWER SWITCH, 100MA, SOT23-5" H 5400 5000 50  0001 L CNN "Description"
 F 5 "1.3" H 5400 4900 50  0001 L CNN "Height"
@@ -819,7 +804,7 @@ U 1 1 5F892172
 P 4150 5500
 F 0 "C4" H 4175 5575 50  0000 L CNN
 F 1 "0.1µF" H 3900 5400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4150 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4150 5500 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp" H 4150 5500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V X7R 0603" H 4150 5500 50  0001 C CNN "Description"
 F 5 " ‎Samsung Electro-Mechanics" H 4150 5500 50  0001 C CNN "Manufacturer_Name"
@@ -860,7 +845,7 @@ U 1 1 5F82A465
 P 4600 1500
 F 0 "L1" V 4785 1500 50  0000 C CNN
 F 1 "47µH" V 4694 1500 50  0000 C CNN
-F 2 "L_1008_2520Metric:L_1008_2520Metric" H 4600 1500 50  0001 C CNN
+F 2 "Inductor_SMD:L_1008_2520Metric" H 4600 1500 50  0001 C CNN
 F 3 "~https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=CBC2518T470K%20%20&u=M" H 4600 1500 50  0001 C CNN
 F 4 "FIXED IND 47UH 290MA 2.47 OHM" H 4600 1500 50  0001 C CNN "Description"
 F 5 "587-3060-1-ND" H 4600 1500 50  0001 C CNN "Digi-Key Part Number"
@@ -874,14 +859,12 @@ U 1 1 5F8C7336
 P 5450 7650
 F 0 "FID3" H 5535 7696 50  0000 L CNN
 F 1 "Fiducial" H 5535 7605 50  0001 L CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7650 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5450 7650 50  0001 C CNN
 F 3 "" H 5450 7650 50  0001 C CNN
 F 4 "Fiducial 1mm with 2mm mask" H 5450 7650 50  0001 C CNN "Description"
 	1    5450 7650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8775 5050
-NoConn ~ 8275 5150
 Wire Wire Line
 	6950 1800 6950 2350
 Connection ~ 8050 2800
@@ -918,19 +901,7 @@ Wire Wire Line
 	2850 2800 8050 2800
 Wire Wire Line
 	8050 2800 8600 2800
-$Comp
-L Mechanical:Fiducial FID4
-U 1 1 5F88A9EF
-P 5450 7800
-F 0 "FID4" H 5535 7846 50  0000 L CNN
-F 1 "Fiducial" H 5535 7755 50  0001 L CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 5450 7800 50  0001 C CNN
-F 3 "" H 5450 7800 50  0001 C CNN
-F 4 "Fiducial 1mm with 2mm mask" H 5450 7800 50  0001 C CNN "Description"
-	1    5450 7800
-	1    0    0    -1  
-$EndComp
-Text Label 8000 5050 2    50   ~ 0
+Text Label 7900 5700 2    50   ~ 0
 PROG
 Wire Wire Line
 	6600 3350 6600 3750
@@ -954,25 +925,19 @@ Wire Wire Line
 Connection ~ 3550 5300
 Wire Wire Line
 	3550 5300 4350 5300
-Wire Wire Line
-	8825 5150 8825 5750
 $Comp
 L Switch:SW_SPST SW1
 U 1 1 606BB77A
 P 3750 4100
 F 0 "SW1" V 3796 4012 50  0000 R CNN
 F 1 "RE-UPDIFY" V 3705 4012 50  0000 R CNN
-F 2 "Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 3750 4100 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 3750 4100 50  0001 C CNN
 F 3 "~" H 3750 4100 50  0001 C CNN
 	1    3750 4100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3750 4500 3750 4300
-Wire Wire Line
-	8275 5050 7775 5050
-Wire Wire Line
-	7775 4950 8275 4950
 Wire Wire Line
 	2775 5300 3550 5300
 Wire Wire Line
@@ -992,21 +957,47 @@ Wire Wire Line
 	2850 2300 3425 2300
 Wire Wire Line
 	2850 2700 3425 2700
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J1
-U 1 1 606CF521
-P 8475 4300
-F 0 "J1" H 8525 4717 50  0000 C CNN
-F 1 "ATMEL ICE" H 8525 4626 50  0000 C CNN
-F 2 "SAMTEC_SHF-105-01-L-D-RA:SAMTEC_SHF-105-01-L-D-RA" H 8475 4300 50  0001 C CNN
-F 3 "~" H 8475 4300 50  0001 C CNN
-	1    8475 4300
-	1    0    0    -1  
-$EndComp
 Text Notes 9875 4725 2    50   ~ 0
 VERIFY ATMEL-ICE USES SAME PIN ODERING AS SAMTEC SPECIFICATION
 Text Notes 9850 2650 1    50   ~ 0
 CHECH MECH BEFORE FABRICATION
 Text Notes 3650 4300 2    50   ~ 0
 CHECK FOOTPRINT AGAINST\nCOMMONLY AVAILABLE PRODUCT
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 60C8B2E8
+P 8200 5600
+F 0 "J1" H 8250 6017 50  0000 C CNN
+F 1 "ATMEL ICE" H 8250 5926 50  0000 C CNN
+F 2 "SAMTEC_SHF-105-01-X-D-TH:SAMTEC_SHF-105-01-X-D-TH" H 8200 5600 50  0001 C CNN
+F 3 "~" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60CADE29
+P 8650 5950
+F 0 "#PWR0103" H 8650 5700 50  0001 C CNN
+F 1 "GND" H 8655 5777 50  0000 C CNN
+F 2 "" H 8650 5950 50  0001 C CNN
+F 3 "" H 8650 5950 50  0001 C CNN
+	1    8650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5950 8650 5800
+Wire Wire Line
+	8650 5400 8500 5400
+Wire Wire Line
+	8850 5500 8500 5500
+Wire Wire Line
+	8000 5700 7450 5700
+Wire Wire Line
+	8000 5500 7450 5500
+Wire Wire Line
+	8500 5800 8650 5800
+Connection ~ 8650 5800
+Wire Wire Line
+	8650 5800 8650 5400
 $EndSCHEMATC

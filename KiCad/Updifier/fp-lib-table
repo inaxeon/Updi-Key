@@ -1,6 +1,5 @@
 (fp_lib_table
-  (lib (name L_1008_2520Metric)(type KiCad)(uri ${KIPRJMOD}/Library/L_1008_2520Metric.pretty)(options "")(descr ""))
   (lib (name WP934AD)(type KiCad)(uri ${KIPRJMOD}/Library/WP934AD.pretty)(options "")(descr ""))
   (lib (name SL_3_RA)(type KiCad)(uri ${KIPRJMOD}/Library/SL_3_RA.pretty)(options "")(descr ""))
-  (lib (name SAMTEC_SHF-105-01-L-D-RA)(type KiCad)(uri ${KIPRJMOD}/Library/SAMTEC_SHF-105-01-L-D-RA.pretty)(options "")(descr ""))
+  (lib (name SAMTEC_SHF-105-01-X-D-TH)(type KiCad)(uri ${KIPRJMOD}/Library/SAMTEC_SHF-105-01-X-D-TH.pretty)(options "")(descr ""))
 )
