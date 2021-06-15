@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Dev\Updi-Key\KiCad\Updifier\Updifier.sch)
-    (date "14/06/2021 21:28:57")
+    (date "15/06/2021 11:33:02")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value ATtiny202-SS)
-      (footprint Package_SO:SO-8_3.9x4.9mm_P1.27mm)
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf)
       (fields
         (field (name Description) "IC MCU 8BIT 2KB FLASH 8SOIC")
@@ -103,7 +103,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5BB1E6))
     (comp (ref D2)
-      (value GREEN)
+      (value "TARGET PWR")
       (footprint WP934AD:WP934AD)
       (datasheet https://dammedia.osram.info/media/resource/hires/osram-dam-2493948/LG%20Q396.pdf)
       (fields
@@ -192,7 +192,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5F885250))
     (comp (ref J2)
-      (value HVUPDI-OUT)
+      (value TARGET)
       (footprint SL_3_RA:SL_3_RA)
       (datasheet ~)
       (fields
@@ -379,7 +379,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5F8C7336))
     (comp (ref D3)
-      (value ORANGE)
+      (value "UPDI EN")
       (footprint WP934AD:WP934AD)
       (datasheet http://www.kingbrightusa.com/images/catalog/SPEC/APTD1608SECK-J4-PF.pdf)
       (fields
@@ -390,7 +390,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5F5C966F))
     (comp (ref SW1)
-      (value RE-UPDIFY)
+      (value RE-SEND)
       (footprint Button_Switch_SMD:SW_SPST_B3SL-1002P)
       (datasheet ~)
       (libsource (lib Switch) (part SW_SPST) (description "Single Pole Single Throw (SPST) switch"))
