@@ -19,7 +19,7 @@ U 1 1 5F5C9531
 P 2250 2600
 F 0 "U1" H 1850 3150 50  0000 R CNN
 F 1 "ATtiny202-SS" H 2850 3175 50  0000 R CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2250 2600 50  0001 C CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 2600 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf" H 2250 2600 50  0001 C CNN
 F 4 "IC MCU 8BIT 2KB FLASH 8SOIC" H 2250 2600 50  0001 C CNN "Description"
 F 5 "ATTINY202-SSNRCT-ND" H 2250 2600 50  0001 C CNN "Digi-Key Part Number"
