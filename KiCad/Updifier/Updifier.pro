@@ -1,4 +1,4 @@
-update=15/06/2021 17:46:23
+update=19/06/2021 05:24:14
 version=1
 last_client=kicad
 [general]
@@ -237,7 +237,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2032
+Clearance=0.1524
 TrackWidth=0.25
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -248,7 +248,7 @@ dPairGap=0.2032
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=PWR16
-Clearance=0.2032
+Clearance=0.1524
 TrackWidth=0.4064
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -259,7 +259,7 @@ dPairGap=0.2032
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=PWR20
-Clearance=0.2032
+Clearance=0.1524
 TrackWidth=0.508
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -270,7 +270,7 @@ dPairGap=0.2032
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=PWR24
-Clearance=0.2032
+Clearance=0.1524
 TrackWidth=0.6096
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -281,7 +281,7 @@ dPairGap=0.2032
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=PWR28
-Clearance=0.2032
+Clearance=0.1524
 TrackWidth=0.7112
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -292,7 +292,7 @@ dPairGap=0.2032
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=PWR32
-Clearance=0.2032
+Clearance=0.1524
 TrackWidth=0.8128
 ViaDiameter=0.6858
 ViaDrill=0.3302
