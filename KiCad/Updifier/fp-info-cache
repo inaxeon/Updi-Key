@@ -1,4 +1,4 @@
-19217680104464970
+19222081357147470
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48768,6 +48768,20 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DC_JACK
+DC_JACK
+module 1 pin (ou trou mecanique de percage)
+CONN JACK
+0
+3
+3
+DR125_7
+DR125
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -55089,6 +55103,27 @@ solder jumper open
 0
 5
 3
+KK_100_6C
+KK_100_6C
+
+
+0
+6
+6
+KK_100_7C
+KK_100_7C
+
+
+0
+7
+7
+KK_100_8C
+KK_100_8C
+
+
+0
+8
+8
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -76292,20 +76327,13 @@ rotary encoder
 0
 5
 4
-SAMTEC_SHF-105-01-X-D-TH
-SAMTEC_SHF-105-01-X-D-TH
+SCREWHOLE
+SCREWHOLE
 
 
 0
-10
-10
-SL_3_RA
-SL_3_RA
-
-
-0
-3
-3
+8
+1
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -83037,13 +83065,6 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
-0
-2
-2
-WP934AD
-WP934AD
-
-
 0
 2
 2
